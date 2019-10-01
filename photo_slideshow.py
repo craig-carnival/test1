@@ -2,6 +2,9 @@ data = open("a_example.txt", "r")
 image = []
 x = 0
 
+x = input()
+print(x)
+
 # input
 for i in data:
     if i != '':
