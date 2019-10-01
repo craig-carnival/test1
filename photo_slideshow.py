@@ -10,7 +10,7 @@ for i in data:
     if i != '':
         image.append(i.split(" "))
     image[x][-1] = image[x][-1][0:len(image[x][-1])-1]
-    x = x+1
+    x = x + 1
 
 number = chr(ord(image[0][0]))
 del image[0]
