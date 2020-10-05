@@ -1,9 +1,15 @@
+import numpy as np
+
 data = open("a_example.txt", "r")
 image = []
 x = 0
 
 x = input()
 print(x)
+
+in = input()
+print("Give me extra")
+print(in)
 
 # input
 for i in data:
